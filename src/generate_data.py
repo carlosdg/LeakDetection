@@ -7,7 +7,7 @@ def generate_data(
     num_days_train=28,
     num_extra_days_without_leak=14,
     num_days_with_leak=0,
-    leak_per_day=0.4*24,
+    leak_per_day=0.1*24,
     sensor_noise=0.5,
     mean_liquid_insertion=30,
     mean_liquid_extraction=30,
