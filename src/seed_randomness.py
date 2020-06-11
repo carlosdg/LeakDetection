@@ -3,7 +3,7 @@ import os
 import numpy as np
 import torch
 
-
+# https://github.com/pytorch/pytorch/issues/7068#issuecomment-487907668
 def seed_randomness(seed=8):
     random.seed(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
